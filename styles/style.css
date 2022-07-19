@@ -1,0 +1,25 @@
+/* -----------all-fonts--------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* all-styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.white-texts {
+  color: white;
+}
+/* ----- Banner Part------- --------------------------*/
+.banner {
+  display: flex;
+  background-color:#161616;
+}
+.heading {
+}
+.headline {
+}
+.watch-button {
+}
+.banner-image {
+}
+.banner-image img {
+}
