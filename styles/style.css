@@ -74,8 +74,10 @@
     background-color: rgb(255, 255, 255);
     color: rgb(191, 237, 99);
 }
-.goal-img{
-    height: 100%;
+.goal-img  img {
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /*-----goal Section  Style End----------*/
