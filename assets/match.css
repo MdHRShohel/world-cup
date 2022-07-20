@@ -75,11 +75,12 @@
 }
 
 .goal-text a:hover {
-    background-color: lightsalmon;
-    color: saddlebrown;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
 }
-
-
+.goal-img img{
+    height: 76vh;
+}
 /*-----goal Section  Style End----------*/
 
 /*-----Button & Layout Section Style Start----------*/
