@@ -15,6 +15,8 @@
     list-style: none;
 }
 
+/*-----General  Section Style End----------*/
+
 /*-----goal Section  Style Start----------*/
 
 
@@ -28,6 +30,8 @@
     margin: 50px;
     padding: 50px;
 }
+
+
 
 .goal-text h1 {
     width: 531px;
@@ -67,16 +71,14 @@
     text-align: center;
     color: #FFFFFF;
     padding: 12px 22px;
-    transition: color 1.5s, background-color 2s;
+    transition: color 2s, background-color 2s;
 }
 
 .goal-text a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(191, 237, 99);
+    background-color: lightsalmon;
+    color: saddlebrown;
 }
-.goal-img{
-    height: 100%;
-}
+
 
 /*-----goal Section  Style End----------*/
 
@@ -119,12 +121,12 @@
     border: 2px solid black;
 }
 
-.button-3 {
+.button-2 {
     background-color: #DD0000;
     border: none;
 }
 
-.button-3 a {
+.button-2 a {
     color: #FFFFFF;
 }
 
@@ -141,67 +143,78 @@
     gap: 24px;
 }
 
-.card {
+.cards {
+    display: flex;
+    flex-direction: column;
     width: 312px;
-    height: 362px;
+    height: 250px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-img {
+    margin-bottom: 20px;
+    padding: 5px 5px;
+}
+
+.card-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.card-img {
+.card-text h4 {
+    width: 150px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #161616;
     margin-bottom: 20px;
 }
 
-.card-text {
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
+.card-text p {
+    width: 150px;
+    height: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: justify;
+    color: #4D4D4D;
+    padding-left: 10px;
 }
 
-.transfer {
+.hr {
+    margin-bottom: 15px;
+}
+
+.details {
     width: 100px;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #161616;
-    border: 1px solid #161616;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     text-align: center;
-    padding: 2px;
+    padding: 4px;
+    margin-left: 10px;
+    transition: font-weight ease-in 2s;
 }
 
-
-.description {
-    width: 272px;
-    height: 54px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #161616;
-    margin: 20px 0;
-}
-
-.card-info {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.comment {
-    margin-left: 30px;
-}
-
-.color {
-    color: rgba(22, 22, 22, 0.7);
+.details:hover {
+    font-weight: bold;
 }
 
 .number {
@@ -212,6 +225,7 @@
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
 }
+
 
 
 .view-more {
@@ -294,7 +308,7 @@ footer {
 
 .social-link a {
     font-size: 25px;
-    color: aqua;
+    color: violet;
     margin-left: 25px;
     transition: transform 250ms, opacity 400ms;
 }
@@ -302,10 +316,7 @@ footer {
 .link a:hover,
 .social-link a:hover {
     transform: scale(1.2);
-    color: rgb(255, 0, 0);
+    color: tomato;
 }
-
-
-
 
 /*-----Footer Section  Style End----------*/
