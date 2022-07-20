@@ -52,6 +52,7 @@ body {
 .heading .btn {
   text-decoration: none;
   background-color: #dd0000;
+  text-shadow: #161616;
   font-size: 18px;
   font-weight: 600;
   padding: 15px 40px;
@@ -59,6 +60,7 @@ body {
 }
 .heading .btn:hover {
   text-decoration: none;
+  text-shadow: #000000;
   color: #dd0000;
   background-color: #ffffff;
   font-size: 18px;
@@ -73,4 +75,114 @@ body {
 .banner .banner-image img {
   height: 613px;
   width: 581px;
+}
+/* --------------------------------
+  -------------body-section--------
+  --------------------------------- */
+.main-body {
+  display: flex;
+  margin-top: 100px;
+  width: 90%;
+  margin-left: 5%;
+}
+/* --------------------------------
+  -------------side-nav--------------
+  --------------------------------- */
+.main-body .side-nav {
+  background-color: #000000;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+.side-nav .topics {
+  text-decoration: none;
+  display: block;
+  margin: 25px;
+  width: 170px;
+  height: 40px;
+  border: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 7px;
+  text-align: center;
+  justify-content: center;
+}
+.side-nav .nav-1,
+.nav-2 {
+  color: #000000;
+  background-color: #ffffff;
+}
+.side-nav .nav-3 {
+  color: #ffffff;
+  background-color: #dd0000;
+}
+/* --------------------------------
+  ---------------blogs--------------
+  --------------------------------- */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-left: 40px;
+}
+.blogs .blog-info {
+  width: 312px;
+  height: 362px;
+  border-radius: 12px;
+  border: 1px solid lightgray;
+}
+.blogs .blog-info button {
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.blogs .blog-info span {
+  color: gray;
+}
+.blogs .blog-info button,
+span,
+p {
+  margin: 15px;
+}
+/* --------------------------------
+  -------------footer-------------
+  --------------------------------- */
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 30vh;
+  background-color: #161616;
+}
+.footer {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+.footer h2 {
+  padding: 30px;
+  color: #ffffff;
+  font-size: 25px;
+}
+.footer .links a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.footer .social a {
+  text-decoration: none;
+  color: aquamarine;
+  padding: 10px;
+}
+.footer .social {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.links {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 15px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 8px;
 }
