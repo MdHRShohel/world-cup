@@ -106,7 +106,6 @@ body {
   padding: 15px 40px;
   border-radius: 7px;
   text-align: center;
-  justify-content: center;
 }
 .side-nav .nav-1,
 .nav-2 {
@@ -124,7 +123,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 .blogs .blog-info {
   width: 312px;
@@ -140,10 +139,21 @@ body {
 .blogs .blog-info span {
   color: gray;
 }
-.blogs .blog-info button,
-span,
-p {
+.blogs .blog-info button,span,p {
   margin: 15px;
+}
+/* -- Button for tablet mode only -- */
+.blogs a{
+  display: none;
+  margin-left: 50px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #dd0000;
+  text-shadow: #161616;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 7px;
 }
 /* --------------------------------
   -------------footer-------------
@@ -176,7 +186,8 @@ footer {
 }
 .footer .social {
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .links {
   font-size: 13px;
